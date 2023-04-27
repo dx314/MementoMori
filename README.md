@@ -1,7 +1,9 @@
 # MementoMori
-This is a Winform C# program called "Memento Mori" that serves as a Dead Man Switch for your privacy. 
-Upon running the user will be asked for a password, and if the user fails to submit the password within 20s, it will delete a list of folders provided by the user.
-This can be useful for maintaining privacy and security in the event that the user is unable to manually delete sensitive information.
+
+This is a Winform C# program that serves as a Dead Man Switch for your privacy. 
+
+Upon running the user will be asked for a password, and if the user fails to submit the password within 20s, it will delete a list of folders configured prior.
+This can be useful for maintaining privacy and security in the event that you have lost control of your user account or hardware.
 
 - currently checks %USERPROFILE%\mementomori.txt for the password
 - list of files to delete can be found in %USERPROFILE%\mementolist.txt, separated by linebreaks
